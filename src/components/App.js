@@ -19,6 +19,7 @@ class App extends React.Component {
     render() {
         return (
             <div className='ui container' style={{marginTop: '30px'}}>
+                <h1 className="ui center aligned header">Dan's Image Search</h1>
                 <SearchInput onSearchSubmit={this.onSearchSubmit}/>
                 <ImageList images = {this.state.images} />
             </div>
